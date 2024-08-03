@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alohra GenKwiz Environmental Awareness Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+    
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+    
+        .logo img {
+            width: 50px; 
+            height: 50px; 
+            border-radius: 50%; 
+            border: 3px solid #4a773c; 
+            object-fit: cover; 
+            margin-right: 15px;
+        }
+    
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #4a773c; /* Macha green */
+            color: white; /* Ensure text color contrasts well with background */
+        }
+    
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+    
+        nav {
+            display: flex;
+            gap: 15px;
+        }
+    
+        nav a {
+            text-decoration: none;
+            color: white; /* Update link color to match the header text color */
+            font-size: 16px;
+        }
+    
+        #quiz-container {
+            padding: 20px;
+        }
+    
+        footer {
+            padding: 20px;
+            background-color: #4a773c; /* Macha green */
+            color: white;
+            text-align: center;
+        }
+    </style>
+    
+    
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+            <h1>Alohra GenKwiz Environmental Awareness Quiz</h1>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="resources.html">Resources</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main id="quiz-container">
+        <h2>Test Your Environmental Knowledge</h2>
+        <div id="quiz">
+            <!-- Quiz questions  -->
+        </div>
+        <button id="submit">Submit</button>
+        <div id="results"></div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Alohra GenKwiz Environmental Awareness Initiative</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

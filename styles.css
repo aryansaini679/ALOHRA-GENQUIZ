@@ -1,0 +1,60 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: url('pexels-therato-3384692.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #8B5A2B; /* Bark color */
+}
+
+header {
+    background: rgba(74, 119, 60, 0.8); /* Macha green with opacity */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); /* 3D effect for header text */
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* 3D effect for nav links */
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+button {
+    padding: 10px 20px;
+    background: #4a773c; /* Macha green */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* 3D effect for button */
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #3e662f; /* Slightly darker macha green */
+}
+
+footer {
+    background: rgba(74, 119, 60, 0.8); /* Macha green with opacity */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); /* 3D effect for footer text */
+}

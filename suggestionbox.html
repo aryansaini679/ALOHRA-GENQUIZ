@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suggestion Box</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Suggestion Box</h1>
+    <form id="suggestionForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="suggestion">Suggestion:</label>
+        <textarea id="suggestion" name="suggestion" rows="4" required></textarea>
+        
+        <button type="submit">Submit</button>
+    </form>
+    <div id="response"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
